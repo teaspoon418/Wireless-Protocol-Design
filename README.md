@@ -1,3 +1,3 @@
 # Wireless-Protocol-Design
 
-300 random nodes given in an area of 10,000*10,000. For these randomly created nodes, the aim is to group these nodes in different clusters. All of these clusters should have a cluster head which should have an intra- or inter- cluster communication to maintain connectivity in a network.The system design must be power efficient where the all the nodes consume minimal power while ensuring full connectivity. 
+The aim is to design a routing algorithm for the given cluster tree mesh where network nodes communicates with each other using the shortest possible path between them. The network originates from a root node (gateway) which is also a cluster head for network 1. The protocol design should cover all aspects of network - contention, channel utilization, MAC implementation, frequency allocations in 802.15.4, synchronisation of nodes, how routing tables will be implemented, and how GUID will be resolved to dynamic addresses
